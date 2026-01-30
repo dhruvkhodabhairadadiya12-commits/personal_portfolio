@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Dhruv Radadiya | Portfolio</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">
+                Dhruv<span>.</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav_item"><a href="#home" class="nav_link active-link">Home</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#services" class="nav_link">Services</a></li>
+                    <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <button class="theme__button" id="theme-button" aria-label="Toggle theme">
+                    <i class="ri-moon-line"></i>
+                </button>
+
+                <div class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+                    <i class="ri-menu-3-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <p class="home__subtitle">Software Developer</p>
+                    <h1 class="home__title">
+                        Hi, I’m <span>Dhruv</span><br />
+                        I build clean, fast<br />
+                        web & Android apps.
+                    </h1>
+
+                    <p class="home__description">
+                        I’m focused on practical projects: UI, APIs, authentication, and clean code.
+                        This portfolio highlights my work and what I can deliver.
+                    </p>
+
+                    <div class="home__buttons">
+                        <a href="#projects" class="button">View Projects</a>
+                        <a href="#contact" class="button button--ghost">Contact Me</a>
+                    </div>
+
+                    <div class="home__stats grid">
+                        <div class="home__stat">
+                            <h3>3+ yrs</h3>
+                            <p>Android Dev</p>
+                        </div>
+                        <div class="home__stat">
+                            <h3>10+</h3>
+                            <p>Mini Projects</p>
+                        </div>
+                        <div class="home__stat">
+                            <h3>Fast</h3>
+                            <p>Delivery</p>
+                        </div>
+                    </div>
+
+                    <div class="home__social">
+                        <a class="home__social-link" href="#" aria-label="GitHub"><i class="ri-github-line"></i></a>
+                        <a class="home__social-link" href="#" aria-label="LinkedIn"><i
+                                class="ri-linkedin-box-line"></i></a>
+                        <a class="home__social-link" href="#" aria-label="Email"><i class="ri-mail-line"></i></a>
+                    </div>
+                </div>
+
+                <div class="home__visual">
+                    <div class="home__card">
+                        <div class="home__badge"><i class="ri-verified-badge-line"></i> Available for projects</div>
+                        <div class="home__mock">
+                            <div class="mock__top">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="mock__body">
+                                <div class="mock__line w-70"></div>
+                                <div class="mock__line w-50"></div>
+                                <div class="mock__line w-90"></div>
+                                <div class="mock__chips">
+                                    <span>Compose</span><span>Ktor</span><span>Node</span><span>SQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home__glow"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <p class="section__subtitle"><span>Introduction</span></p>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid">
+                <div class="about__content">
+                    <h3 class="about__title">I love building products that feel smooth and “finished”.</h3>
+                    <p class="about__description">
+                        I’m a software developer with strong Android development skills and a growing focus on
+                        full-stack web development.
+                        I like clean UI, structured code, and practical features (auth, APIs, storage, validations).
+                    </p>
+
+                    <div class="about__info grid">
+                        <div class="about__box">
+                            <i class="ri-code-s-slash-line"></i>
+                            <h4>Frontend</h4>
+                            <p>HTML, CSS, JS</p>
+                        </div>
+
+                        <div class="about__box">
+                            <i class="ri-smartphone-line"></i>
+                            <h4>Android</h4>
+                            <p>Kotlin, Compose</p>
+                        </div>
+
+                        <div class="about__box">
+                            <i class="ri-database-2-line"></i>
+                            <h4>Backend</h4>
+                            <p>Ktor / Node.js</p>
+                        </div>
+                    </div>
+
+                    <a href="#contact" class="button">Let’s Work</a>
+                </div>
+
+                <div class="about__card">
+                    <h4>Quick Profile</h4>
+                    <ul class="about__list">
+                        <li><span>Role:</span> Software Developer</li>
+                        <li><span>Focus:</span> Android + Web</li>
+                        <li><span>Strength:</span> UI + API Integration</li>
+                        <li><span>Location:</span> London (UK)</li>
+                    </ul>
+                    <div class="about__quote">
+                        “Build it simple, make it reliable, polish the experience.”
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <p class="section__subtitle"><span>Toolkit</span></p>
+            <h2 class="section__title">Skills</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__group">
+                    <h3 class="skills__title"><i class="ri-layout-2-line"></i> Frontend</h3>
+                    <div class="skills__items grid">
+                        <div class="skill__item"><span>HTML5</span><small>Semantic & structured</small></div>
+                        <div class="skill__item"><span>CSS3</span><small>Responsive layouts</small></div>
+                        <div class="skill__item"><span>JavaScript</span><small>DOM + validation</small></div>
+                        <div class="skill__item"><span>Bootstrap</span><small>Rapid UI building</small></div>
+                    </div>
+                </div>
+
+                <div class="skills__group">
+                    <h3 class="skills__title"><i class="ri-smartphone-line"></i> Android</h3>
+                    <div class="skills__items grid">
+                        <div class="skill__item"><span>Kotlin</span><small>Clean architecture</small></div>
+                        <div class="skill__item"><span>Jetpack Compose</span><small>Modern UI</small></div>
+                        <div class="skill__item"><span>Retrofit / Ktor</span><small>API integration</small></div>
+                        <div class="skill__item"><span>Room / Firebase</span><small>Storage & auth</small></div>
+                    </div>
+                </div>
+
+                <div class="skills__group">
+                    <h3 class="skills__title"><i class="ri-server-line"></i> Backend & Tools</h3>
+                    <div class="skills__items grid">
+                        <div class="skill__item"><span>Node.js</span><small>REST + sockets</small></div>
+                        <div class="skill__item"><span>Ktor</span><small>API building</small></div>
+                        <div class="skill__item"><span>Git/GitHub</span><small>Branching & PRs</small></div>
+                        <div class="skill__item"><span>SQL</span><small>Queries & modelling</small></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <p class="section__subtitle"><span>What I do</span></p>
+            <h2 class="section__title">Services</h2>
+
+            <div class="services__container container grid">
+                <article class="service__card">
+                    <i class="ri-pencil-ruler-2-line"></i>
+                    <h3>UI Development</h3>
+                    <p>Clean responsive UI, reusable components, consistent spacing and typography.</p>
+                </article>
+
+                <article class="service__card">
+                    <i class="ri-lock-2-line"></i>
+                    <h3>Auth & Forms</h3>
+                    <p>Registration/login flows, validation, secure form UX, cookie/local storage logic.</p>
+                </article>
+
+                <article class="service__card">
+                    <i class="ri-cloud-line"></i>
+                    <h3>API Integration</h3>
+                    <p>Fetch & display data, pagination/search, error handling, loading states.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <p class="section__subtitle"><span>Work</span></p>
+            <h2 class="section__title">Projects</h2>
+
+            <div class="projects__container container grid">
+                <article class="project__card">
+                    <div class="project__tag">Web</div>
+                    <h3>Student Dashboard (Cookie Auth)</h3>
+                    <p>Login/Register flow using cookies, protected dashboard, clean UI layout.</p>
+                    <div class="project__meta">
+                        <span>HTML</span><span>CSS</span><span>JS</span>
+                    </div>
+                    <div class="project__actions">
+                        <a href="#" class="project__link"><i class="ri-github-line"></i> Code</a>
+                        <a href="#" class="project__link"><i class="ri-external-link-line"></i> Demo</a>
+                    </div>
+                </article>
+
+                <article class="project__card">
+                    <div class="project__tag">Android</div>
+                    <h3>Compose Search (Remote API)</h3>
+                    <p>Search names with remote API, debouncing, loading/error states.</p>
+                    <div class="project__meta">
+                        <span>Kotlin</span><span>Compose</span><span>Flow</span>
+                    </div>
+                    <div class="project__actions">
+                        <a href="#" class="project__link"><i class="ri-github-line"></i> Code</a>
+                    </div>
+                </article>
+
+                <article class="project__card">
+                    <div class="project__tag">Backend</div>
+                    <h3>Ktor REST API</h3>
+                    <p>REST endpoints with clean architecture, validation and structured responses.</p>
+                    <div class="project__meta">
+                        <span>Ktor</span><span>Mongo/SQL</span><span>JSON</span>
+                    </div>
+                    <div class="project__actions">
+                        <a href="#" class="project__link"><i class="ri-github-line"></i> Code</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <p class="section__subtitle"><span>Let’s talk</span></p>
+            <h2 class="section__title">Contact</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__info">
+                    <h3 class="contact__title">Message me</h3>
+                    <p class="contact__text">
+                        For assignments, collaboration, or small projects — send a message and I’ll reply.
+                    </p>
+
+                    <div class="contact__cards grid">
+                        <div class="contact__card">
+                            <i class="ri-mail-line"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>dhruv.radadiya63@law.ac.uk</p>
+                            </div>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class="ri-map-pin-line"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>London, UK</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact__form" id="contact-form" novalidate>
+                    <div class="contact__field">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" name="name" placeholder="Your name" required />
+                        <small class="form__error"></small>
+                    </div>
+
+                    <div class="contact__field">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Your email" required />
+                        <small class="form__error"></small>
+                    </div>
+
+                    <div class="contact__field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Write your message..."
+                            required></textarea>
+                        <small class="form__error"></small>
+                    </div>
+
+                    <button type="submit" class="button">
+                        Send Message <i class="ri-send-plane-2-line"></i>
+                    </button>
+
+                    <p class="form__status" id="form-status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__copy">
+                © <span id="year"></span> Dhruv Radadiya. Built for university portfolio assignment.
+            </p>
+        </div>
+    </footer>
+
+    <a href="#home" class="scrollup" id="scroll-up" aria-label="Scroll to top">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="scrollreveal.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
